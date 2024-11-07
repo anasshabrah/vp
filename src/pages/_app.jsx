@@ -15,6 +15,9 @@ const Rokstar = ({ Component, pageProps }) => {
                 <meta name="description" content="Established in 2007, Lander Wheels is a leading innovator in high-performance wheels for off-road, street, and track applications." />
                 <meta name="robots" content="index, follow" />
                 
+                {/* Canonical URL */}
+                <link rel="canonical" href="https://www.landerwheels.com" />
+                
                 {/* Open Graph / Facebook */}
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="LANDER Wheels | Built For Speed, Crafted For Control" />
