@@ -17,7 +17,7 @@ const Contact = () => {
                                 30 N Gould St. Sheridan, WY 82801,<br/>
                                 USA
                             </address>
-                            <p>info@landerwheels.co</p>
+                            <p>info@landerwheels.com</p>
                             <p>+1 (610) 234-7490</p>
                         </div>
 
