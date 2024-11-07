@@ -76,7 +76,7 @@ const ImageModal = ({ src, alt, onClose }) => {
 
     const zoomIn = () => {
         setScale((prev) => {
-            const newScale = Math.min(prev + 0.2, 3);
+            const newScale = Math.min(prev + 0.2, initialScale * 6);
             return newScale;
         });
     };
@@ -88,12 +88,14 @@ const ImageModal = ({ src, alt, onClose }) => {
         });
 
         // Reset translation when zooming out to initial scale
-        if (scale - 0.2 <= initialScale) {
-            translate.current = { x: 0, y: 0 };
-            updateTransform();
-        } else {
-            constrainTranslate();
-        }
+        setTimeout(() => {
+            if (scale - 0.2 <= initialScale) {
+                translate.current = { x: 0, y: 0 };
+                updateTransform();
+            } else {
+                constrainTranslate();
+            }
+        }, 0);
     };
 
     const handleWheel = (e) => {
@@ -188,7 +190,7 @@ const ImageModal = ({ src, alt, onClose }) => {
                 // Removed onClick={(e) => e.stopPropagation()} since the overlay no longer closes the modal
             >
                 <button
-                    className="absolute top-3 right-3 text-white text-3xl font-bold z-20 bg-gray-800 bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 focus:outline-none transition"
+                    className="absolute top-3 right-3 text-white text-2xl font-bold z-20 bg-gray-800 bg-opacity-75 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-90 focus:outline-none transition"
                     onClick={handleClose}
                     aria-label="Close"
                 >
@@ -237,7 +239,7 @@ const ImageModal = ({ src, alt, onClose }) => {
                 <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-2">
                     <button
                         onClick={zoomOut}
-                        className={`px-3 py-1 bg-gray-800 bg-opacity-50 text-white rounded hover:bg-opacity-75 focus:outline-none transition ${
+                        className={`px-4 py-2 bg-gray-800 bg-opacity-75 text-white rounded-full hover:bg-opacity-90 focus:outline-none transition ${
                             scale <= initialScale ? 'opacity-50 cursor-not-allowed' : ''
                         }`}
                         aria-label="Zoom Out"
@@ -245,16 +247,16 @@ const ImageModal = ({ src, alt, onClose }) => {
                     >
                         -
                     </button>
-                    <span className="text-white bg-gray-800 bg-opacity-50 px-3 py-1 rounded">
+                    <span className="text-white bg-gray-800 bg-opacity-75 px-4 py-2 rounded-full">
                         {Math.round((scale / initialScale) * 100)}%
                     </span>
                     <button
                         onClick={zoomIn}
-                        className={`px-3 py-1 bg-gray-800 bg-opacity-50 text-white rounded hover:bg-opacity-75 focus:outline-none transition ${
-                            scale >= 3 ? 'opacity-50 cursor-not-allowed' : ''
+                        className={`px-4 py-2 bg-gray-800 bg-opacity-75 text-white rounded-full hover:bg-opacity-90 focus:outline-none transition ${
+                            scale >= initialScale * 6 ? 'opacity-50 cursor-not-allowed' : ''
                         }`}
                         aria-label="Zoom In"
-                        disabled={scale >= 3}
+                        disabled={scale >= initialScale * 6}
                     >
                         +
                     </button>

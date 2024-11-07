@@ -1,48 +1,48 @@
 [
   {
     "id": 1,
-    "type": "LW01-Canyon",
+    "type": "LW001-Canyon",
     "colors": {
       "Silver": [
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver/lw001-1790-2-Silver machined--b.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver/lw001-1790-2-Silver machined--c.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver/lw001-1790-2-Silver machined-a.png"
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined--b.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined--c.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined-a.png"
       ],
       "Black": [
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Black/lw001-1790-2-black-a.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Black/lw001-1790-2-black-b.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Black/lw001-1790-2-black-c.png"
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-a.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-b.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-c.png"
       ],
       "Bronze": [
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Bronze/lw001-1790-2-bronze-a.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Bronze/lw001-1790-2-bronze-b.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Bronze/lw001-1790-2-bronze-c.png"
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-a.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-b.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-c.png"
       ],
       "Gray": [
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Gray/lw001-1790-2-grey-a.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Gray/lw001-1790-2-grey-b.png",
-        "/images/portfolio/LW01-Canyon/LW01-Canyon-silver-Gray/lw001-1790-2-grey-c.png"
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-a.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-b.png",
+        "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-c.png"
       ]
     }
   },
   {
     "id": 2,
-    "type": "LW02-Farson",
+    "type": "LW002-Farson",
     "colors": {
       "Black": [
-        "/images/portfolio/LW02-Farson/LW02-Farson-Black/ST003(1785-6X139.7,Black)1.png",
-        "/images/portfolio/LW02-Farson/LW02-Farson-Black/ST003(1785-6X139.7,Black)2.png",
-        "/images/portfolio/LW02-Farson/LW02-Farson-Black/ST003(1785-6X139.7,Black)3.png"
+        "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)1.png",
+        "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)2.png",
+        "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)3.png"
       ],
       "Grey": [
-        "/images/portfolio/LW02-Farson/LW02-Farson-Grey/ST003(1785-6X139.7,Grey)1.png",
-        "/images/portfolio/LW02-Farson/LW02-Farson-Grey/ST003(1785-6X139.7,Grey)2.png",
-        "/images/portfolio/LW02-Farson/LW02-Farson-Grey/ST003(1785-6X139.7,Grey)3.png"
+        "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)1.png",
+        "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)2.png",
+        "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)3.png"
       ],
       "Silver": [
-        "/images/portfolio/LW02-Farson/LW02-Farson-Silver/ST003(1785-6X139.7,Silver machined)1.png",
-        "/images/portfolio/LW02-Farson/LW02-Farson-Silver/ST003(1785-6X139.7,Silver machined)2.png",
-        "/images/portfolio/LW02-Farson/LW02-Farson-Silver/ST003(1785-6X139.7,Silver machined)3.png"
+        "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)1.png",
+        "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)2.png",
+        "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)3.png"
       ]
     }
   }
