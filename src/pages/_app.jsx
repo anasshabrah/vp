@@ -16,14 +16,14 @@ const Rokstar = ({ Component, pageProps }) => {
                 <meta name="robots" content="index, follow" />
                 
                 {/* Canonical URL */}
-                <link rel="canonical" href="https://www.landerwheels.com" />
+                <link rel="canonical" href="https://landerwheels.com" />
                 
                 {/* Open Graph / Facebook */}
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="LANDER Wheels | Built For Speed, Crafted For Control" />
                 <meta property="og:description" content="Lander Wheels has led wheel innovation since 2007, delivering performance and quality in wheels for off-road, street, and track use. From passenger cars to UTVs, rely on Lander for cutting-edge technology and superior fitment." />
                 <meta property="og:image" content="/images/logo-dark.png" />
-                <meta property="og:url" content="https://www.landerwheels.com" />
+                <meta property="og:url" content="https://landerwheels.com" />
                 <meta property="og:site_name" content="LANDER Wheels" />
 
                 {/* Twitter */}
@@ -39,8 +39,8 @@ const Rokstar = ({ Component, pageProps }) => {
                         "@context": "http://schema.org",
                         "@type": "Organization",
                         "name": "LANDER Wheels",
-                        "url": "https://www.landerwheels.com",
-                        "logo": "https://www.landerwheels.com/images/logo-dark.png",
+                        "url": "https://landerwheels.com",
+                        "logo": "https://landerwheels.com/images/logo-dark.png",
                         "sameAs": [
                             "https://www.instagram.com/landerwheels/"
                         ],
