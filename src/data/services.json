@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Innovative Design and Manufacturing",
+    "desc": "Leading in the creation of wheels tailored for off-road, street, and track use.",
+    "icon": "service-web-design.png"
+  },
+  {
+    "id": 2,
+    "title": "Performance-Driven Technology",
+    "desc": "Commitment to high-performance technology ensures superior quality in all products.",
+    "icon": "service-illustrator.png"
+  },
+  {
+    "id": 3,
+    "title": "Diverse Range of Styles and Fitments",
+    "desc": "Wide selection available for passenger cars, light trucks, SUVs, and UTVs.",
+    "icon": "service-branding.png"
+  }
+]
