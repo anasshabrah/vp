@@ -6,17 +6,34 @@ const HeroArea = () => {
     return (
         <section
             id="hero"
-            style={{backgroundImage: `url(${heroBg})`}}
-            className="relative bg-cover bg-no-repeat bg-center-top h-[300px] sm:h-[450px] md:h-[500px] lg:h-[600px] xl:h-[800px] flex items-center"
+            style={{ backgroundImage: `url(${heroBg})` }}
+            className="
+                relative
+                bg-cover
+                bg-no-repeat
+                bg-center
+                h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[90vh]
+                flex
+                flex-col
+                justify-end
+                text-center
+                pb-8 sm:pb-12 md:pb-16
+                overflow-hidden
+            "
         >
-            <div className="container">
+            <div className="container px-4">
                 <div className="mt-8 font-light">
-                    <h1 className="text-white font-light text-3xl sm:text-[45px] md:text-[55px] leading-none">LANDER Wheels</h1>
-                    <h2 className="text-white font-light text-md sm:text-lg tracking-4 mt-2 sm:mt-4">Since 2007</h2>
+                    <h1 className="text-white font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none">
+                        LANDER Wheels
+                    </h1>
+                    <h2 className="text-white font-light text-md sm:text-lg tracking-widest mt-2 sm:mt-4">
+                        Since 2007
+                    </h2>
                 </div>
             </div>
 
-            <Shape className="hidden md:block"/>
+            {/* Adjust the visibility and positioning of the Shape component based on screen size */}
+            <Shape className="hidden md:block absolute bottom-0 left-0 right-0" />
         </section>
     );
 };
