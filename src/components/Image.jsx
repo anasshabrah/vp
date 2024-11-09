@@ -9,13 +9,13 @@ const Image = React.forwardRef(({ src, alt, onClick, style, ...props }, ref) => 
         alt={alt}
         onClick={onClick}
         style={{
-            objectFit: 'contain', // Ensures the image scales properly
-            ...style, // Merge any additional styles passed via props
+            objectFit: 'cover',
+            ...style,
         }}
-        className="transition-transform duration-300 ease-in-out transform cursor-pointer select-none"
+        className="transition-transform duration-300 ease-in-out transform cursor-pointer select-none w-full h-full"
         ref={ref}
         {...props}
-        draggable={false} // Prevent default drag behavior
+        draggable={false}
     />
 ));
 

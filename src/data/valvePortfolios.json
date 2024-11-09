@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "type": "LW001-Canyon",
+    "color": "Silver",
+    "images": [
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined--b.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined--c.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined-a.png"
+    ],
+    "parameters": [
+      {
+        "part_number": "LW0011790001",
+        "size": "17X9J",
+        "pitch_circle_diameter": "5x127",
+        "offset": -12,
+        "center_bore": "78.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790005",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x135",
+        "offset": 0,
+        "center_bore": "87.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790009",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "LW001-Canyon",
+    "color": "Black",
+    "images": [
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-a.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-b.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-c.png"
+    ],
+    "parameters": [
+      {
+        "part_number": "LW0011790002",
+        "size": "17X9J",
+        "pitch_circle_diameter": "5x127",
+        "offset": -12,
+        "center_bore": "78.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790006",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x135",
+        "offset": 0,
+        "center_bore": "87.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790010",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "LW001-Canyon",
+    "color": "Bronze",
+    "images": [
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-a.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-b.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-c.png"
+    ],
+    "parameters": [
+      {
+        "part_number": "LW0011790004",
+        "size": "17X9J",
+        "pitch_circle_diameter": "5x127",
+        "offset": -12,
+        "center_bore": "78.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790008",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x135",
+        "offset": 0,
+        "center_bore": "87.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790012",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "LW001-Canyon",
+    "color": "Gray",
+    "images": [
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-a.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-b.png",
+      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-c.png"
+    ],
+    "parameters": [
+      {
+        "part_number": "LW0011790003",
+        "size": "17X9J",
+        "pitch_circle_diameter": "5x127",
+        "offset": -12,
+        "center_bore": "78.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790007",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x135",
+        "offset": 0,
+        "center_bore": "87.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0011790011",
+        "size": "17X9J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 13.4,
+        "bolts_faux": "YES"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "LW002-Farson",
+    "color": "Silver",
+    "images": [
+      "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)1.png",
+      "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)2.png",
+      "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)3.png"
+    ],
+    "parameters": [
+      {
+        "part_number": "LW0021890001",
+        "size": "18X9J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 16.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785001",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "5x127",
+        "offset": -12,
+        "center_bore": "78.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785004",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "6x135",
+        "offset": 0,
+        "center_bore": "87.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785007",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "LW002-Farson",
+    "color": "Black",
+    "images": [
+      "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)1.png",
+      "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)2.png",
+      "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)3.png"
+    ],
+    "parameters": [
+      {
+        "part_number": "LW0021890002",
+        "size": "18X9J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 16.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785002",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "5x127",
+        "offset": -12,
+        "center_bore": "78.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785005",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "6x135",
+        "offset": 0,
+        "center_bore": "87.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785008",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "LW002-Farson",
+    "color": "Grey",
+    "images": [
+      "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)1.png",
+      "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)2.png",
+      "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)3.png"
+    ],
+    "parameters": [
+      {
+        "part_number": "LW0021890003",
+        "size": "18X9J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 16.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785003",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "5x127",
+        "offset": -12,
+        "center_bore": "78.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785006",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "6x135",
+        "offset": 0,
+        "center_bore": "87.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      },
+      {
+        "part_number": "LW0021785009",
+        "size": "17X8.5J",
+        "pitch_circle_diameter": "6x139.7",
+        "offset": 0,
+        "center_bore": "106.1",
+        "load": "2500LBS",
+        "weight_kg": 14.2,
+        "bolts_faux": "YES"
+      }
+    ]
+  }
+]
