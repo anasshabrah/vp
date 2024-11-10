@@ -1,9 +1,11 @@
+// /src/components/ImageModal.jsx
+
 import { useEffect, useState, useRef } from "react";
-import Image from "./Image"; // Ensure this component correctly forwards props
+import Image from "./Image";
 
 const ImageModal = ({ src, alt, onClose }) => {
-    const [scale, setScale] = useState(1); // State to manage zoom scale
-    const [initialScale, setInitialScale] = useState(1); // State to store the initial fit scale
+    const [scale, setScale] = useState(1);
+    const [initialScale, setInitialScale] = useState(1);
     const containerRef = useRef(null);
     const imgRef = useRef(null);
     

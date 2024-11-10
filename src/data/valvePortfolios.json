@@ -1,326 +1,73 @@
 [
   {
     "id": 1,
-    "type": "LW001-Canyon",
-    "color": "Silver",
+    "model": "LW11001",
+    "name": "LANDER Tire Air Deflator Valve - Short",
     "images": [
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined--b.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined--c.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver/lw001-1790-2-Silver machined-a.png"
+      "/images/portfolio/LW11001Air Deflator Valve/LW11001-1.jpg",
+      "/images/portfolio/LW11001Air Deflator Valve/LW11001-2.jpg",
+      "/images/portfolio/LW11001Air Deflator Valve/LW11001-3.jpg",
+      "/images/portfolio/LW11001Air Deflator Valve/LW11001-4.jpg",
+      "/images/portfolio/LW11001Air Deflator Valve/LW11001-5.jpg"
     ],
-    "parameters": [
-      {
-        "part_number": "LW0011790001",
-        "size": "17X9J",
-        "pitch_circle_diameter": "5x127",
-        "offset": -12,
-        "center_bore": "78.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790005",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x135",
-        "offset": 0,
-        "center_bore": "87.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790009",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      }
-    ]
+    "description": "Effortless Tire Deflation. The LANDER Tire Air Deflator Valve provides an efficient and hassle-free way to deflate your tires. Unlike traditional methods, this deflator valve allows you to release air without removing the valve core, streamlining the process and saving you valuable time and effort.",
+    "specifications": {
+      "deflation_time_seconds": "Less than 15 seconds",
+      "pressure_range_PSI": "15 - 35 PSI",
+      "compatibility": "Most rim sizes, trucks, SUVs, and off-road vehicles",
+      "material": "High-quality, durable materials",
+      "features": [
+        "Quick & Easy Tire Pressure Reduction",
+        "Streamlined Air Release Process",
+        "Robust Construction for Tough Conditions"
+      ]
+    }
   },
   {
     "id": 2,
-    "type": "LW001-Canyon",
-    "color": "Black",
+    "model": "LW11002",
+    "name": "LANDER Tire Air Deflator Valve - Long",
     "images": [
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-a.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-b.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Black/lw001-1790-2-black-c.png"
+      "/images/portfolio/LW11002-Air-Deflator-Valve/LW11002-1.jpg",
+      "/images/portfolio/LW11002-Air-Deflator-Valve/LW11002-2.jpg",
+      "/images/portfolio/LW11002-Air-Deflator-Valve/LW11002-3.jpg",
+      "/images/portfolio/LW11002-Air-Deflator-Valve/LW11002-4.jpg",
+      "/images/portfolio/LW11002-Air-Deflator-Valve/LW11002-5.jpg"
     ],
-    "parameters": [
-      {
-        "part_number": "LW0011790002",
-        "size": "17X9J",
-        "pitch_circle_diameter": "5x127",
-        "offset": -12,
-        "center_bore": "78.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790006",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x135",
-        "offset": 0,
-        "center_bore": "87.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790010",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      }
-    ]
+    "description": "Quick & Efficient Inflation. With the LANDER Tire Deflator Valve, you can quickly lower tire pressure from 35 PSI to 15 PSI in less than 15 seconds. This rapid air release is perfect for off-road enthusiasts who need to adjust tire pressure efficiently on the go, allowing for quicker setup and more time to enjoy your adventure.",
+    "specifications": {
+      "deflation_time_seconds": "Less than 15 seconds",
+      "pressure_range_PSI": "15 - 35 PSI",
+      "compatibility": "Most rim sizes, trucks, SUVs, and off-road vehicles",
+      "material": "High-quality, durable materials",
+      "features": [
+        "Rapid Air Release",
+        "No Valve Core Removal Needed",
+        "Durable Build for Off-Road Use"
+      ]
+    }
   },
   {
     "id": 3,
-    "type": "LW001-Canyon",
-    "color": "Bronze",
+    "model": "LW11003",
+    "name": "LANDER Valve Cap",
     "images": [
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-a.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-b.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Bronze/lw001-1790-2-bronze-c.png"
+      "/images/portfolio/LW11003-Valve-Cap/LW11003-1.jpg",
+      "/images/portfolio/LW11003-Valve-Cap/LW11003-2.jpg",
+      "/images/portfolio/LW11003-Valve-Cap/LW11003-3.jpg",
+      "/images/portfolio/LW11003-Valve-Cap/LW11003-4.jpg",
+      "/images/portfolio/LW11003-Valve-Cap/LW11003-5.jpg"
     ],
-    "parameters": [
-      {
-        "part_number": "LW0011790004",
-        "size": "17X9J",
-        "pitch_circle_diameter": "5x127",
-        "offset": -12,
-        "center_bore": "78.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790008",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x135",
-        "offset": 0,
-        "center_bore": "87.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790012",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "type": "LW001-Canyon",
-    "color": "Gray",
-    "images": [
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-a.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-b.png",
-      "/images/portfolio/LW001-Canyon/LW001-Canyon-silver-Gray/lw001-1790-2-grey-c.png"
-    ],
-    "parameters": [
-      {
-        "part_number": "LW0011790003",
-        "size": "17X9J",
-        "pitch_circle_diameter": "5x127",
-        "offset": -12,
-        "center_bore": "78.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790007",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x135",
-        "offset": 0,
-        "center_bore": "87.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0011790011",
-        "size": "17X9J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 13.4,
-        "bolts_faux": "YES"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "LW002-Farson",
-    "color": "Silver",
-    "images": [
-      "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)1.png",
-      "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)2.png",
-      "/images/portfolio/LW002-Farson/LW002-Farson-Silver/ST003(1785-6X139.7,Silver machined)3.png"
-    ],
-    "parameters": [
-      {
-        "part_number": "LW0021890001",
-        "size": "18X9J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 16.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785001",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "5x127",
-        "offset": -12,
-        "center_bore": "78.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785004",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "6x135",
-        "offset": 0,
-        "center_bore": "87.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785007",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "type": "LW002-Farson",
-    "color": "Black",
-    "images": [
-      "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)1.png",
-      "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)2.png",
-      "/images/portfolio/LW002-Farson/LW002-Farson-Black/ST003(1785-6X139.7,Black)3.png"
-    ],
-    "parameters": [
-      {
-        "part_number": "LW0021890002",
-        "size": "18X9J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 16.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785002",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "5x127",
-        "offset": -12,
-        "center_bore": "78.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785005",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "6x135",
-        "offset": 0,
-        "center_bore": "87.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785008",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "type": "LW002-Farson",
-    "color": "Grey",
-    "images": [
-      "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)1.png",
-      "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)2.png",
-      "/images/portfolio/LW002-Farson/LW002-Farson-Grey/ST003(1785-6X139.7,Grey)3.png"
-    ],
-    "parameters": [
-      {
-        "part_number": "LW0021890003",
-        "size": "18X9J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 16.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785003",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "5x127",
-        "offset": -12,
-        "center_bore": "78.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785006",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "6x135",
-        "offset": 0,
-        "center_bore": "87.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      },
-      {
-        "part_number": "LW0021785009",
-        "size": "17X8.5J",
-        "pitch_circle_diameter": "6x139.7",
-        "offset": 0,
-        "center_bore": "106.1",
-        "load": "2500LBS",
-        "weight_kg": 14.2,
-        "bolts_faux": "YES"
-      }
-    ]
+    "description": "Protect your valve stems with the LANDER Valve Cap. Designed for durability and easy installation, these valve caps ensure your tire valves remain clean and free from debris.",
+    "specifications": {
+      "material": "Stainless steel",
+      "color_options": ["Silver", "Black", "Bronze", "Gray"],
+      "compatibility": "Standard valve stems",
+      "features": [
+        "Durable Protection",
+        "Easy to Install",
+        "Stylish Finishes"
+      ]
+    }
   }
 ]

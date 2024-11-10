@@ -1,3 +1,6 @@
+// /src/components/HeroArea.jsx
+
+import React from "react";
 import Shape from "./Shape";
 
 const heroBg = "/images/hero-bg.jpg";
@@ -23,12 +26,9 @@ const HeroArea = () => {
         >
             <div className="container px-4">
                 <div className="mt-8 font-light">
-                    <h1 className="text-white font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none">
+                    <h1 className="text-white font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none transform -translate-y-8">
                         LANDER Wheels
                     </h1>
-                    <h2 className="text-white font-light text-md sm:text-lg tracking-widest mt-2 sm:mt-4">
-                        Since 2007
-                    </h2>
                 </div>
             </div>
 
