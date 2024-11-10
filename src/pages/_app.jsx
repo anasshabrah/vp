@@ -22,7 +22,7 @@ const Rokstar = ({ Component, pageProps }) => {
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="LANDER Wheels | Built For Speed, Crafted For Control" />
                 <meta property="og:description" content="Lander Wheels has led wheel innovation since 2007, delivering performance and quality in wheels for off-road, street, and track use. From passenger cars to UTVs, rely on Lander for cutting-edge technology and superior fitment." />
-                <meta property="og:image" content="/images/logo-dark.png" />
+                <meta property="og:image" content="/images/hero-bg.jpg" />
                 <meta property="og:url" content="https://landerwheels.com" />
                 <meta property="og:site_name" content="LANDER Wheels" />
 
@@ -30,7 +30,7 @@ const Rokstar = ({ Component, pageProps }) => {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="LANDER Wheels | Built For Speed, Crafted For Control" />
                 <meta name="twitter:description" content="Leading innovator in wheel design and manufacturing since 2007, Lander Wheels specializes in performance wheels for off-road, street, and track use, known for quality and advanced technology." />
-                <meta name="twitter:image" content="/images/logo-dark.png" />
+                <meta name="twitter:image" content="/images/hero-bg.jpg" />
                 <meta name="twitter:site" content="@LANDERWheels" />
 
                 {/* Structured Data for SEO */}
