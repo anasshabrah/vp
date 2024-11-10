@@ -19,6 +19,9 @@ const ImageModal = ({ src, alt, onClose }) => {
     const imgDimensions = useRef({ width: 0, height: 0 });
     const containerDimensions = useRef({ width: 0, height: 0 });
 
+    // Refs for touch handling
+    const lastTouch = useRef({ x: 0, y: 0 });
+
     useEffect(() => {
         const handleEsc = (event) => {
             if (event.key === "Escape") onClose();
@@ -156,6 +159,56 @@ const ImageModal = ({ src, alt, onClose }) => {
         handleMouseUp();
     };
 
+    // Touch Event Handlers
+    const handleTouchStart = (e) => {
+        if (scale > initialScale && e.touches.length === 1) { // Single touch for panning
+            isDragging.current = true;
+            const touch = e.touches[0];
+            origin.current = {
+                x: touch.clientX - translate.current.x,
+                y: touch.clientY - translate.current.y,
+            };
+            lastTouch.current = { x: touch.clientX, y: touch.clientY };
+            containerRef.current.style.cursor = "grabbing";
+        }
+    };
+
+    const handleTouchMove = (e) => {
+        if (!isDragging.current || e.touches.length !== 1) return;
+
+        e.preventDefault(); // Prevent scrolling when panning
+
+        const touch = e.touches[0];
+
+        // Use requestAnimationFrame for smoother updates
+        if (animationFrame.current) {
+            cancelAnimationFrame(animationFrame.current);
+        }
+
+        animationFrame.current = requestAnimationFrame(() => {
+            let newX = touch.clientX - origin.current.x;
+            let newY = touch.clientY - origin.current.y;
+
+            // Calculate the maximum translation based on scale and container size
+            const maxTranslateX = Math.max((imgDimensions.current.width * scale - containerDimensions.current.width) / 2, 0);
+            const maxTranslateY = Math.max((imgDimensions.current.height * scale - containerDimensions.current.height) / 2, 0);
+
+            // Constrain the translation to prevent over-panning
+            newX = Math.min(Math.max(newX, -maxTranslateX), maxTranslateX);
+            newY = Math.min(Math.max(newY, -maxTranslateY), maxTranslateY);
+
+            translate.current = { x: newX, y: newY };
+            updateTransform();
+        });
+    };
+
+    const handleTouchEnd = () => {
+        if (isDragging.current) {
+            isDragging.current = false;
+            containerRef.current.style.cursor = scale > initialScale ? "grab" : "default";
+        }
+    };
+
     useEffect(() => {
         // Update transform whenever scale changes
         updateTransform();
@@ -184,11 +237,11 @@ const ImageModal = ({ src, alt, onClose }) => {
 
     return (
         <div
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 px-4 py-4 sm:px-6 lg:px-8"
             // Removed onClick={handleClose} to prevent closing when clicking on the overlay
         >
             <div
-                className="relative max-w-3xl w-full p-4 bg-white rounded-md"
+                className="relative w-full max-w-5xl bg-white rounded-md shadow-lg"
                 // Removed onClick={(e) => e.stopPropagation()} since the overlay no longer closes the modal
             >
                 <button
@@ -199,13 +252,17 @@ const ImageModal = ({ src, alt, onClose }) => {
                     &times;
                 </button>
                 <div
-                    className="flex justify-center items-center relative w-full h-96 overflow-hidden cursor-grab"
+                    className="flex justify-center items-center relative w-full max-h-[80vh] overflow-hidden cursor-grab touch-action: none"
                     onWheel={handleWheel} // Handle zoom with mouse wheel
                     onMouseDown={handleMouseDown}
                     onMouseMove={handleMouseMove}
                     onMouseUp={handleMouseUp}
                     onMouseLeave={handleMouseLeave}
+                    onTouchStart={handleTouchStart}
+                    onTouchMove={handleTouchMove}
+                    onTouchEnd={handleTouchEnd}
                     ref={containerRef}
+                    style={{ touchAction: "none" }} // Prevent default touch actions like scrolling
                 >
                     <Image
                         src={src}
@@ -214,8 +271,9 @@ const ImageModal = ({ src, alt, onClose }) => {
                         style={{
                             transform: `translate(${translate.current.x}px, ${translate.current.y}px) scale(${scale})`,
                             cursor: scale > initialScale ? "grab" : "default",
-                            maxWidth: "none",
-                            maxHeight: "none",
+                            maxWidth: "100%",
+                            maxHeight: "100%",
+                            objectFit: "contain",
                             transition: "transform 0.3s ease",
                         }}
                         ref={imgRef}
