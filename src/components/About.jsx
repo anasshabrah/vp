@@ -8,7 +8,7 @@ const AboutMe = () => {
         <section className="pt-[80px] lg:pt-[100px] pb-[60px] lg:pb-[125px]" id="about">
             <div className="container">
                 <SectionTitle
-                    title="About LANDER"
+                    title="About VirixPro"
                     className="lg:hidden"
                 />
 
@@ -20,7 +20,7 @@ const AboutMe = () => {
                                 height={470}
                                 className="rounded-md"
                                 src={`/images/${about.thumb}`}
-                                alt="Profile image for LANDER" // Add descriptive alt text
+                                alt="Profile image for VirixPro"
                             />
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const AboutMe = () => {
                     <div className="col-start-6 col-end-13">
                         <div className="bio mt-5 sm:mt-10 md:mt-0">
                             <SectionTitle
-                                title="About LANDER"
+                                title="About VirixPro"
                                 className="hidden lg:block"
                             />
 

@@ -8,8 +8,8 @@ const Logo = ({ variant = "light", className = "" }) => {
     return (
         <Link href="/" className={`leading-0 inline-block ${className}`}>
             <Image
-                width={200}
-                height={58}
+                width={126}
+                height={70}
                 src={`/images/logo-${variant}.png`}
                 alt="Logo"
             />

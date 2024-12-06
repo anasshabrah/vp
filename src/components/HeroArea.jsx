@@ -25,9 +25,9 @@ const HeroArea = () => {
             "
         >
             <div className="container px-4">
-                <div className="mt-8 font-light">
+                <div className="mt-2 font-light">
                     <h1 className="text-white font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none transform -translate-y-8">
-                        LANDER Wheels
+                        VirixPro
                     </h1>
                 </div>
             </div>

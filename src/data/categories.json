@@ -1,0 +1,26 @@
+[
+  {
+    "id": "camping",
+    "name": "Camping",
+    "description": "Gear up for your next adventure with reliable camping essentials",
+    "image": "camping.jpg"
+  },
+  {
+    "id": "performance",
+    "name": "Performance",
+    "description": "High-performance automotive parts and accessories",
+    "image": "performance.jpg"
+  },
+  {
+    "id": "interior",
+    "name": "Interior",
+    "description": "Premium interior accessories for your vehicle",
+    "image": "interior.jpg"
+  },
+  {
+    "id": "lights",
+    "name": "Lights",
+    "description": "High-quality lighting solutions for enhanced visibility",
+    "image": "lights.jpg"
+  }
+]

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Home",
-    "href": "hero"
+    "href": "home"
   },
   {
     "id": 2,
@@ -11,11 +11,16 @@
   },
   {
     "id": 3,
-    "name": "Portfolio",
-    "href": "portfolio"
+    "name": "Services",
+    "href": "services"
   },
   {
     "id": 4,
+    "name": "Categories",
+    "href": "categories"
+  },
+  {
+    "id": 5,
     "name": "Contact",
     "href": "contact"
   }

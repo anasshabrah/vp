@@ -14,10 +14,11 @@ const Contact = () => {
                     <div className="col-span-5">
                         <div className="font-medium space-y-2">
                             <address className="not-italic">
+							    VirixPro LLC<br/>
                                 30 N Gould St. Sheridan, WY 82801,<br/>
                                 USA
                             </address>
-                            <p>info@landerwheels.com</p>
+                            <p>info@virixpro.com</p>
                             <p>+1 (610) 234-7490</p>
                         </div>
 

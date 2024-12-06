@@ -1,5 +1,6 @@
 // pages/index.jsx
 
+import Categories from "../components/Categories";
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import AboutMe from "../components/About";
@@ -11,28 +12,28 @@ import Preloader from "../components/Preloader";
 import Portfolios from "../components/Portfolios";
 
 const Home = () => {
-    const [preloaded, setPreloaded] = useState(false);
+  const [preloaded, setPreloaded] = useState(false);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setPreloaded(true);
-        }, 800);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setPreloaded(true);
+    }, 800);
 
-        return () => clearTimeout(timer);
-    }, []);
+    return () => clearTimeout(timer);
+  }, []);
 
-    return (
-        <div className="rokstar">
-            <Preloader preloaded={preloaded} />
-            <Header />
-            <HeroArea />
-            <AboutMe />
-            <Services />
-            <Portfolios />
-            <Contact />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="rokstar">
+      <Preloader preloaded={preloaded} />
+      <Header />
+      <HeroArea />
+      <AboutMe />
+      <Services />
+      <Categories />
+      <Contact />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;

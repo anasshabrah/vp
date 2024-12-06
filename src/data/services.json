@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Innovative Design and Manufacturing",
-    "desc": "Leading in the creation of wheels tailored for off-road, street, and track use.",
+    "title": "Creative Off-Road Solutions",
+    "desc": "VirixPro develops contemporary, high-quality products that increase the durability and performance of your vehicle.",
     "icon": "service-web-design.png"
   },
   {
     "id": 2,
-    "title": "Performance-Driven Technology",
-    "desc": "Commitment to high-performance technology ensures superior quality in all products.",
+    "title": "Optimal Fit for All Vehicles",
+    "desc": "Our products are compatible with a wide range of makes and models, providing off-roaders with the precise instruments they require.",
     "icon": "service-illustrator.png"
   },
   {
     "id": 3,
-    "title": "Diverse Range of Styles and Fitments",
-    "desc": "Wide selection available for passenger cars, light trucks, SUVs, and UTVs.",
+    "title": "Constructed for Difficult Journeys",
+    "desc": "VirixPro provides products that are both reliable and thoroughly tested, allowing you to confidently navigate any terrain.",
     "icon": "service-branding.png"
   }
 ]

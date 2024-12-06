@@ -12,7 +12,7 @@ const Footer = () => {
 
                     {/* Copyright */}
                     <p>
-                        &copy; LANDER Wheels {new Date().getFullYear()}, Made with <AiFillHeart
+                        &copy; VirixPro {new Date().getFullYear()}, Made with <AiFillHeart
                         className="inline text-red-600"/>
                     </p>
                 </div>
